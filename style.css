@@ -1,0 +1,98 @@
+body
+{
+    background-color: antiquewhite;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+nav
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    height: 89px;
+    background-color: black;
+    color: white;
+    
+
+}
+img
+{
+    width: 44px;
+    padding: 0 8px;
+}
+.hill
+{
+    display: flex;
+    align-items: center;
+}
+nav ul li
+{
+padding: 0px 12px;
+
+
+}
+.container
+{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12PX;
+    padding: 34PX;
+    background-image: url('bg.jpg');
+
+}
+.botton
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    
+    bottom:0;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#myprogressbar
+{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+.songitem 
+{
+height: 50px;
+display: flex;
+background-color: white;
+color: black;
+margin:12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 35px;
+
+}
+.songitem img{
+    width: 43px;
+    margin: 0 23px 0 ;
+    border-radius: 50%;
+
+}
+.div  button
+{
+    margin: 0 23px;
+    cursor: pointer;
+    border-radius: 200px;
+}
